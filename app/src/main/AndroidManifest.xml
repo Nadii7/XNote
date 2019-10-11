@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.monadii.notex">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/xnote"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Activities.ProfileX"
+            android:theme="@style/Full_Screen" />
+        <activity
+            android:name=".Activities.Message"
+            android:theme="@style/Full_Screen" />
+        <activity
+            android:name=".Activities.Edit"
+            android:theme="@style/Full_Screen" />
+        <activity
+            android:name=".Activities.Post_Expandation"
+            android:theme="@style/Full_Screen" />
+        <activity
+            android:name=".Activities.Profile"
+            android:theme="@style/Full_Screen" />
+        <activity
+            android:name=".Activities.Settings" />
+        <activity
+            android:name=".Activities.Add"
+            android:theme="@style/Full_Screen" />
+        <activity
+            android:name=".Activities.Notex" />
+        <activity
+            android:name=".Activities.Sign_Up"
+            android:theme="@style/Full_Screen" />
+        <activity
+            android:name=".Activities.Login"
+            android:theme="@style/Full_Screen" />
+        <activity
+            android:name=".Activities.MainActivity"
+            android:theme="@style/Full_Screen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+    </application>
+
+
+</manifest>

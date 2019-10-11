@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "910478758240",
+    "firebase_url": "https://note-x-app.firebaseio.com",
+    "project_id": "note-x-app",
+    "storage_bucket": "note-x-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:910478758240:android:eb9204898b64bd83",
+        "android_client_info": {
+          "package_name": "com.example.monadii.notex"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "910478758240-2ggjvvf14gv9o6hpgr8f238loua10qko.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCTN5Zhz5FkNVaQx8MLs4sZlmBOZe8xd18"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "910478758240-2ggjvvf14gv9o6hpgr8f238loua10qko.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
